@@ -12,4 +12,13 @@ Step 2: In the plugin class, retrieve the main activity through the ActivityAwar
 第二步。在插件类通过ActivityAware接口获取该主activity。以下是代码实现。
 
 
+```
+import io.flutter.embedding.android.FlutterFragmentActivity
+
+class MainActivity: FlutterFragmentActivity() {
+    
+}
+
+```
+
 
